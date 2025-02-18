@@ -18,7 +18,7 @@ export default function Home() {
 
     </header>
 
-    <main className="mt-10 space-y-4 lg:space-y-0 lg:flex lg:gap-5">
+    <main className="mt-10 space-y-4">
       <section className="bg-gray-700 rounded-2xl p-6 flex flex-col gap-6 border border-gray-600">
         <header className="w-full flex justify-between items-center">
           <h3 className="text-gray-200 text-xl md:text-2xl leading-none font-semibold">Sobre o evento</h3>
