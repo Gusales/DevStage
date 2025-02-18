@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  /** Reset colors from tailwind */
+  --color-*: initial;
+
+  /** Accent */
+  --color-blue: #6f9de2;
+  --color-purple: #9871f3;
+
+  /** Feedback  */
+  --color-danger: #f05d6c;
+
+  /** Grayscale  */
+  --color-gray-100: #dae4f2;
+  --color-gray-200: #c8d0da;
+  --color-gray-300: #95a1b1;
+  --color-gray-400: #6f7d90;
+  --color-gray-500: #2a313c;
+  --color-gray-600: #21252c;
+  --color-gray-700: #191d24;
+  --color-gray-800: #13161b;
+  --color-gray-900: #0f1216;
+
+  /** Fonts  */
+  --font-heading: var(--font-heading);
+  --font-sans: var(--font-body);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
